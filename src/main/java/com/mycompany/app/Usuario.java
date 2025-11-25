@@ -1,3 +1,4 @@
+package app;
 public class Usuario extends Pessoa {
 
     private int idade;

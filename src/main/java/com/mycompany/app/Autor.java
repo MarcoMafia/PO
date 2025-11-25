@@ -1,3 +1,4 @@
+package app;
 public class Autor extends Pessoa {
 
     private String nacionalidade;

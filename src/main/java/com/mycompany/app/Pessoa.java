@@ -1,3 +1,4 @@
+package app;
 public class Pessoa {
     protected String nome;
     protected Livro[] livros;

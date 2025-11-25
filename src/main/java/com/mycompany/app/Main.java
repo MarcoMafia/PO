@@ -1,3 +1,4 @@
+package app;
 import java.util.Date;
 
 public class Main {
@@ -6,7 +7,7 @@ public class Main {
         Autor autor = new Autor("Jessica Felix", "Brasileira");
         Livro livro = new Livro("Java for Beginners", autor, "Tecnologia");
         Usuario usuario = new Usuario("Lucas Rafael", 25);
-        
+
         Date agora = new Date();
 
         Emprestimo emp = new Emprestimo(livro, usuario, agora, agora);
